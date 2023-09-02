@@ -30,7 +30,7 @@ twitter_username: semanticnoodles
 github_username:  semanticnoodles
 
 # Build settings
-theme: minima
+remote_theme: broccolini/swiss
 plugins:
   - jekyll-feed
 
