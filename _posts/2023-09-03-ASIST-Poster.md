@@ -1,5 +1,6 @@
 ---
 layout: category-post
+date: 2023/09/03
 title: ASIS&T 2023 - Poster Extras
 ---
 
