@@ -1,4 +1,5 @@
 ---
+layout: category-post
 title: ASIS&T 2023 - Poster Extras
 ---
 
