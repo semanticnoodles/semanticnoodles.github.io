@@ -4,3 +4,22 @@
 
 layout: home
 ---
+
+<!-- Set title and description in config.yml -->
+
+<section class="full-width-section-2">
+    <div class="right-block-2">
+        <h2>About my PhD topic</h2>
+    </div>
+    <div class="left-block-2">
+        <p>I am researching the ‘ethical requirements’ for documentation that accompanies digitised cultural heritage collections
+        as data, in relation to their reuse through Artificial Intelligence systems.</p>
+        <h4>Core Topics</h4>
+        <ul>
+            <li>Artificial Intelligence</li>
+            <li>Galleries, Libraries, Archives & Museums</li>
+            <li>Digital Preservation</li>
+            <li>Information and Communication Studies</li>
+        </ul>
+    </div>
+</section>
