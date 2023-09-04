@@ -60,3 +60,22 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Style for the Back to Top button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  display: none;
+  background-color: #396a76;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Change background color on hover */
+.back-to-top:hover {
+  background-color: #c58f5d;
+}
