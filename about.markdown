@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+menu_order: 2
 ---
 
 Born in Ferrara in 1988 and **grew up in a garden**, at 3 years old, I fell in love with informatics and dinosaurs. At age 8, I discovered my deep fascination for archaeology; that was the period I realized that I wanted to work with ancient stuff, green things, and computers. At 16 years old, I started drawing digitally, **developing some graphic design skills** that came in handy years later when I started working as a visual designer.
