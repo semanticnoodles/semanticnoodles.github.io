@@ -1,0 +1,36 @@
+// deep-blue theme
+
+// Color variables
+$deep-sand: #C58F5D;
+$sand: #396A76;
+$lapislazuli: #1C515C; 
+$white: #EAD9C1;
+$text-gray: #496066;
+$divider-color: #C58F5D;
+$cadetblue: cadetblue;
+
+// Config
+$color-background: $lapislazuli !default;
+$color-dot-accent: $deep-sand !default;
+$color-foreground: $white !default;
+$color-title: $deep-sand !default;
+$color-body-text: $lapislazuli !default;
+$color-text-accent: $deep-sand !default;
+$color-code: $sand !default;
+$color-nav-link: $deep-sand !default;
+$color-primary-link: $deep-sand !default;
+$theme-dark: $lapislazuli !default;
+$theme-dark2: $text-gray !default;
+
+.font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Import sass partials (used in all themes)
+@import
+        "variables",
+        "base",
+        "components",
+        "utilities"
+;
