@@ -120,3 +120,16 @@ a:hover {
 .about-me-section h2 {
   font-size: 24px;
 }
+
+/* Footer fixes */
+.left-col{
+  text-align: left;
+  padding: 20px;
+  display: block;
+}
+
+.right-col{
+  text-align: right;
+  padding: 20px;
+  display: inline;
+}
