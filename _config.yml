@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Semantic Noodles
+title: Semantic <br> Noodles
 email: giulia.osti@ucdconnect.ie
 description: >- # this means to ignore newlines until "baseurl:"
   This is Giulia, a D-Real-funded PhD candidate based at the University College Dublin, 
@@ -31,6 +31,10 @@ github_username:  semanticnoodles
 # Build settings
 plugins:
   - jekyll-feed
+
+redirects:
+  - from: /conferences/2023/09/03/ASIST-Poster.html
+    to: /asist2023/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

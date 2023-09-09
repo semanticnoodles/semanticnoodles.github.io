@@ -32,7 +32,7 @@ body {
     font-size: $body-font-size;
     line-height: 1.5;
     color: $color-body-text;
-    background-color: #fff;
+    background-color: $white;
 }
 
 p {
@@ -61,6 +61,11 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Logo */
+.my-logo {
+  max-width: 60px;
+}
+
 /* Style for the Back to Top button */
 .back-to-top {
   position: fixed;
@@ -71,11 +76,47 @@ a:hover {
   background-color: #396a76;
   color: #ffffff;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 0%;
   transition: background-color 0.3s, transform 0.3s;
 }
 
 /* Change background color on hover */
 .back-to-top:hover {
   background-color: #c58f5d;
+}
+
+/* Fullscreen Section with Two Columns */
+.fullscreen-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #396a76;
+}
+
+.fullscreen-section h2 {
+  color: #fff;
+}
+
+.fullscreen-section p {
+  color: #fff;
+}
+
+/* About Me Section */
+.about-me-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $cadetblue;
+  padding: 30px;
+}
+
+.about-me-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about-me-section h2 {
+  font-size: 24px;
 }
