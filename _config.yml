@@ -18,32 +18,87 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Semantic <br> Noodles
+
+# Site settings
+author: 'Giulia'
+favicon: /img/favicon.png
+avatar: /img/avatar.jpg
+author_bio: 'Your biography can be written here.'
+title: Semantic Noodles
 email: giulia.osti@ucdconnect.ie
-description: >- # this means to ignore newlines until "baseurl:"
-  This is Giulia, a D-Real-funded PhD candidate based at the University College Dublin, 
-  School of Information and Communication Studies.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://semanticnoodles.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: semanticnoodles
-github_username:  semanticnoodles
+since: 2023 # Copyright
+
+# Top Menu
+menu:
+  Publications: /#Publications
+  About: /
+  Blog: https://phower.me
+
+# Page Background
+loading_bg:
+  flink: /img/profile.png
+
+# Social Links
+social:
+  enable: true
+  social_links:
+    fab fa-twitter: /
+    fab fa-facebook-square: /
+    fab fa-github: /
+    fab fa-linkedin: /
+    fas fa-envelope: / # E-mail
+    fas fa-rss: /  # RSS
+
+# Additional Social Links
+e_social:
+  enable: true
+  e_social_links:
+    Google Scholar: / || fas fa-graduation-cap
+    ORCID: / || fab fa-orcid
+
+# CV download link
+cv_dl:
+  enable: true
+  dir: /attaches/CV.pdf
+  description: My Detailed CV
+
+# Box-shadow
+box_shadow:
+  enable: false
+
+# CDN
+CDN_USE:
+  css:
+    - /css/index.css
+    - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css # FontAwesome 5
+  js:
+    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+    - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js
+    - /js/main.js
+
+# Site Description
+# description: >-
+#   This is Giulia, a D-Real-funded PhD candidate based at the University College Dublin,
+#   School of Information and Communication Studies.
+
+# Site URLs
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://semanticnoodles.github.io" # the base hostname & protocol for your site, e.g., http://example.com
+
+# Declare theme
+theme: Academia
 
 # Build settings
 plugins:
   - jekyll-feed
 
+# Redirects
 redirects:
   - from: /conferences/2023/09/03/ASIST-Poster.html
     to: /asist2023/
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# Exclude from processing
+# The following items will not be processed by default
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
