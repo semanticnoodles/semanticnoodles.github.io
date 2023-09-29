@@ -1,0 +1,15 @@
+[submodule "hugo/themes/eureka"]
+	path = hugo/themes/eureka
+	url = https://github.com/wangchucheng/hugo-eureka.git
+[submodule "hugo/themes/ananke"]
+	path = hugo/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "semned-gh/themes/salinger"]
+	path = semned-gh/themes/salinger
+	url = https://github.com/jacksalici/salinger-theme.git
+[submodule "semned-gh/themes/hugo-theme-tokiwa"]
+	path = semned-gh/themes/hugo-theme-tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
+[submodule "semned-gh/themes/eureka"]
+	path = semned-gh/themes/eureka
+	url = https://github.com/wangchucheng/hugo-eureka.git
