@@ -20,11 +20,12 @@
 
 
 # Site settings
-author: 'Giulia'
+author: 'Semantic Noodles'
 favicon: /img/favicon.png
 avatar: /img/avatar.jpg
-author_bio: 'Your biography can be written here.'
-title: Semantic Noodles
+author_bio: 'This is Giulia, a D-Real-funded PhD candidate based at the University College Dublin,
+School of Information and Communication Studies.'
+title: Giulia Osti - Semantic Noodles
 email: giulia.osti@ucdconnect.ie
 since: 2023 # Copyright
 
@@ -76,26 +77,28 @@ CDN_USE:
     - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js
     - /js/main.js
 
-# Site Description
-# description: >-
-#   This is Giulia, a D-Real-funded PhD candidate based at the University College Dublin,
-#   School of Information and Communication Studies.
 
 # Site URLs
 baseurl: "" # the subpath of your site, e.g., /blog
 url: "https://semanticnoodles.github.io" # the base hostname & protocol for your site, e.g., http://example.com
 
 # Declare theme
-theme: Academia
+#theme: Academia
 
 # Build settings
 plugins:
-  - jekyll-feed
+  - hexo-generator-feed
 
 # Redirects
 redirects:
   - from: /conferences/2023/09/03/ASIST-Poster.html
     to: /asist2023/
+
+deploy:
+  type: git
+  repo: https://github.com/semanticnoodles/semanticnoodles.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: main
 
 # Exclude from processing
 # The following items will not be processed by default
