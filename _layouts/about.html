@@ -1,6 +1,17 @@
 ---
-layout: default
+layout: plain
 ---
+<section class="hero fullscreen">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="/assets/img/SN_Logo-blue2.svg" alt="Giulia's Image" style="width: 250px; height: auto; padding:10px">
+        </div>
+        <div class="hero-text">
+          <p>This is Giulia, a d-real/SFI-funded PhD candidate based at the University College Dublin, School of Information and
+            Communication Studies.</p>
+        </div>
+      </div>
+    </section>
 
 <!-- about.html -->
       <div class="post">
@@ -11,8 +22,11 @@ layout: default
           <p class="desc">{{ page.subtitle }}</p>
         </header>
 
+
+
         <article>
           {% if page.profile -%}
+          <section class="fullscreen">
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
@@ -40,24 +54,28 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
+        </section>
 
-          <!-- News -->
+          
+        <!-- News -->
+        <div class="halfscreen">
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: $nightblue;">news</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
-
           <!-- Latest posts -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest updates</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
+          </div>
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;"> highlights</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
+
 
           <!-- Social -->
           {%- if page.social %}
