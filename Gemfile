@@ -19,9 +19,8 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'bibtex-ruby'
-    gem 'citeproc-ruby'
-    gem 'csl-styles'
+    gem 'jekyll-sass-converter', '~> 1.5.2'
+    gem 'bibtex-ruby', '~>4.0'
 end
 group :other_plugins do
     gem 'feedjira'
