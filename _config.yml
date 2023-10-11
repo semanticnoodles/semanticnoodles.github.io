@@ -30,7 +30,7 @@ twitter_username: semanticnoodles
 github_username:  semanticnoodles
 
 # Build settings
-theme: al-folio
+remote_theme: al-folio
 plugins:
   - jekyll-feed
 
