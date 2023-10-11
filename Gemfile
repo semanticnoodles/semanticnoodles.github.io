@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'classifier-reborn'
-    gem 'jekyll', '~> 3.9.3'
+    gem 'jekyll'
     gem 'jekyll-archives'
+    gem 'jekyll-diagrams'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
@@ -11,7 +12,7 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
-    gem 'jekyll-scholar', '~> 5.12.0'
+    gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
@@ -19,11 +20,8 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'jekyll-sass-converter', '~> 1.5.2'
-    gem 'bibtex-ruby', '~>4.0'
 end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
-    gem 'github-pages'
 end

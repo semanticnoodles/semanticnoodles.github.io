@@ -9,18 +9,12 @@ body {
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
-    font-family: $title-font;
   }
-}
-
-p, body {
-  font-family: $body-font;
 }
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
   padding-top: 56px;
-  font-family: $body-font;
 }
 
 body.sticky-bottom-footer {

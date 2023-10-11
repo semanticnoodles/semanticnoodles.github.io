@@ -4,8 +4,6 @@
  ******************************************************************************/
 
 // Colors
-
-// Originals
 $red-color:           #FF3636 !default;
 $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
@@ -24,64 +22,18 @@ $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
-// Grey
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 
-// Mono
-$white-color: #F1FAF8 !default;
-$black-color: #040c0d !default;
-
-// Custom
-$sandtan: #e1b382 !default;
-$sandtan-light: #ead9c1 !default;
-$sandtan-shadow: #c89666 !default;
-$nightblue: #1c515c !default;
-$nightblue-shadow: #12343b !default;
-$lapislazuli: #1f7a8d !default;
+$white-color: #ffffff !default;
+$black-color: #000000 !default;
 
 // Theme colors
-$code-bg-color-light: rgba($white-color, 0.25);
-$code-bg-color-dark: lighten($nightblue-shadow, 40%);
 
-// Gradient
-@mixin gradient-background($start-color, $end-color) {
-    background: linear-gradient(to bottom, $start-color, $end-color);
-}
-// Text box shadow - you just need to append "@include boxShadow(#fdb1b9, 1000);"
-@mixin boxShadow($colour, $length) {
-    $value: (
-    );
-
-@for $i from 1 through $length {
-    $px: $i + px;
-    $shadow: $px $px $colour;
-    $value: append($value, $shadow, comma)
-}
-text-shadow: $value;
-}
+$code-bg-color-light:     rgba($purple-color, 0.05);
+$code-bg-color-dark:      #2c3237 !default;
 
 // Font awesome location
 $fa-font-path: "../webfonts";
-
-// Fontset
-$title-font: "Space Mono", monotype, Monaco;
-$body-font: "Red Hat Text", sans-serif, 'Gill Sans MT', Helvetica;
-
-// Font Sizes
-
-// Quick Styles
-$huge-font-size: 50px;
-$body-font-size: 20px;
-$tiny-font-size: 16px;
-$prose-font-size: 20px;
-
-// Type scale
-$h1-size: 32px !default;
-$h2-size: 28px !default;
-$h3-size: 26px !default;
-$h4-size: 22px !default;
-$h5-size: 18px !default;
-$h6-size: 14px !default;
