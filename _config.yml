@@ -46,13 +46,47 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 remote_theme: alshedivat/al-folio
 plugins:
   - jekyll-feed
-
+  - classifier-reborn
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll-scholar
+  - jekyll-sitemap
+  - jekyll-toc
+  - jemoji
+  - jekyll-twitter-plugin
+  - mini_racer
+  - unicode_utils
+  - webrick
 
 navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
 max_width: 1200px
+
+imagemagick:
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img/
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-resize 800x"
+
 
 
 # Exclude from processing.

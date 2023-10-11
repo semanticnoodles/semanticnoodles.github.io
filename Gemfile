@@ -17,7 +17,28 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "webrick"
+  gem "webrick"    
+  gem 'jekyll-archives'
+  gem 'jekyll-email-protect'
+  gem 'jekyll-get-json'
+  gem 'jekyll-imagemagick'
+  gem 'jekyll-jupyter-notebook'
+  gem 'jekyll-link-attributes'
+  gem 'jekyll-minifier'
+  gem 'jekyll-paginate-v2'
+  gem 'jekyll-scholar', '~> 5.12.0'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-toc'
+  gem 'jemoji'
+  gem 'mini_racer'
+  gem 'jekyll-twitter-plugin' 
+  gem 'unicode_utils'
+  gem 'classifier-reborn'
+  gem 'jekyll-sass-converter', '~> 1.5.2'
+end
+group :other_plugins do
+    gem 'feedjira'
+    gem 'httparty'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
