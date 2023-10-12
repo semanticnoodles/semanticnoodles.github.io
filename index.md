@@ -1,8 +1,13 @@
 ---
-layout: about
-title: home
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-latest_posts: true  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+layout: home
+title: Home
+landing-title: Semantic Noodles
+description: null
+image: assets/images/bg-sand.jpg
+author: null
+show_tile: false
 ---
+
+Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+
+Additional random stuff.

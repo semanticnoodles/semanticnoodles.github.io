@@ -1,0 +1,47 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Fonts.
+	$font: (
+		family:				('Red Hat Text', Helvetica, sans-serif),
+		family-fixed:		('Space Mono', monospace),
+		weight:				300,
+		weight-bold:		500,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
+	);
+	
+// Palette.
+	$palette: (
+		bg:					#12343b,
+		bg-alt:				#c89666,
+		fg:					#f3f3f3,
+		fg-bold:			#f1faf8,
+		fg-light:			rgba(234, 217, 193, 0.4),
+		border:				rgba(212,212,255,0.1),
+		border-bg:			rgba(212,212,255,0.035),
+		highlight: 			#e1b382,  // Softer Sand Tan
+        accent1: lighten(desaturate(#c89666, 15%), 30%),    // Softer Sand Tan Shadow
+		accent4: lighten(desaturate(#dbc78e, 15%), 30%),    // Softer Extra
+		accent2: lighten(desaturate(#2d545e, 15%), 30%),    // Softer Night Blue
+		accent3: lighten(desaturate(#12343b, 15%), 30%),    // Softer Night Blue Shadow
+		accent5: lighten(desaturate(#759effa7, 15%), 30%),  // Softer Accent 5
+		accent6: lighten(desaturate(#e1b083, 15%), 30%),    // Softer Accent 6
+	);
