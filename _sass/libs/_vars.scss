@@ -34,11 +34,11 @@
 		bg-alt:				#c89666,
 		fg:					#f3f3f3,
 		fg-bold:			#f1faf8,
-		fg-light:			rgba(234, 217, 193, 0.4),
-		border:				rgba(212,212,255,0.1),
-		border-bg:			rgba(212,212,255,0.035),
+		fg-light:			#e1b382, // Softer Sand Tan
+		border:				lighten(desaturate(#140f0a, 15%), 30%), // Softer Sand Tan Shadow
+		border-bg:			#2d545e,
 		highlight: 			#e1b382,  // Softer Sand Tan
-        accent1: lighten(desaturate(#c89666, 15%), 30%),    // Softer Sand Tan Shadow
+        accent1: lighten(desaturate(#140f0a, 15%), 30%),    // Softer Sand Tan Shadow
 		accent4: lighten(desaturate(#dbc78e, 15%), 30%),    // Softer Extra
 		accent2: lighten(desaturate(#2d545e, 15%), 30%),    // Softer Night Blue
 		accent3: lighten(desaturate(#12343b, 15%), 30%),    // Softer Night Blue Shadow
