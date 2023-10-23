@@ -1,9 +1,6 @@
 ---
 title: My References
 layout: post
+nav-menu: true
 ---
 
-The default Bibliography
-------------------------
-
-{% bibliography %}
