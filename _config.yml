@@ -16,7 +16,7 @@ author: Giulia Osti
 
 # homepage tiles
 tiles-source: log # accepts "log" or "pages"
-tiles-count: 4
+tiles-count: 2
 
 # social settings (key must match name of font awesome icon)
 # see https://fontawesome.com/icons?d=gallery&p=2&s=brands
