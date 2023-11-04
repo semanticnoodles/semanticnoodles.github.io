@@ -38,6 +38,7 @@ exclude:
 - LICENSE.md
 - CONTRIBUTING.md
 - README.md 
+- "*.DS_Store"
 
 # Fetch posts from log
 collections:
