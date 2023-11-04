@@ -3,7 +3,7 @@ layout: home
 title: Home
 landing-title: Semantic Noodles
 description: Welcome to my transitional website using Jekyll. 
-image: assets/images/bg-sand.jpg
+image: assets/images/cover-bg-sand.jpeg
 author: null
 show_tile: false
 ---
